@@ -1,0 +1,18 @@
+<h2>ERP Integration Test</h2>
+
+<button onclick="run()">Run Payment Init</button>
+
+<script type="module">
+import { eveInit } from "../sdk/eve-pay-client.js";
+
+async function run(){
+  const r = await eveInit({
+    region:"us",
+    amount:999,
+    external_ref:"ERP-DEMO"
+  });
+
+  alert(JSON.stringify(r,null,2));
+}
+</script>
+

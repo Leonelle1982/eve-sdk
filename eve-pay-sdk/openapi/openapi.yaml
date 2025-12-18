@@ -1,0 +1,23 @@
+openapi: 3.0.0
+info:
+  title: EVE Payments SDK
+  version: 1.0.0
+paths:
+  /api/v1/payments/init:
+    post:
+      summary: Initialize EVE payment
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                region: { type: string }
+                amount: { type: number }
+                currency: { type: string }
+                wallet: { type: string }
+      responses:
+        '200':
+          description: OK
+

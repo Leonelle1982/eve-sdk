@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>EVE Pay Widget Launcher</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      padding: 24px;
+    }
+    .eve-card {
+      max-width: 420px;
+      border-radius: 12px;
+      padding: 20px;
+      border: 1px solid #e5e7eb;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
+    }
+    button {
+      padding: 10px 16px;
+      border-radius: 999px;
+      border: none;
+      cursor: pointer;
+      font-weight: 600;
+    }
+    .primary {
+      background: #10b981;
+      color: white;
+    }
+    pre {
+      margin-top: 16px;
+      font-size: 12px;
+      background: #f9fafb;
+      padding: 12px;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <div class="eve-card">
+    <h2>EVE Pay Demo Widget</h2>
+    <p>Click to init a PHP 1,500 payment and log the response.</p>
+    <button class="primary" id="btnWidget">Init EVE Payment</button>
+    <pre id="widgetLog"></pre>
+  </div>
+
+  <script type="module" src="./widget-launcher.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Redmine x EVE Pay Demo</title>
+</head>
+<body>
+  <h1>ERP x EVE Pay SDK Demo</h1>
+
+  <label>
+    Redmine Task / Issue ID:
+    <input id="taskId" value="TASK-12345" />
+  </label>
+  <br /><br />
+
+  <label>
+    Amount (PHP):
+    <input id="amount" type="number" value="1500" />
+  </label>
+  <br /><br />
+
+  <button id="btnInit">Init Payment</button>
+  <button id="btnConfirm" disabled>Confirm Payment</button>
+
+  <pre id="log"></pre>
+
+  <script type="module">
+    import { EvePay } from '../../sdk/eve-pay-client.js';
+    import { attachRedmineDemo } from './redmine-eve-pay.js';
+
+    const eve = new EvePay({
+      baseUrl: 'https://api.evegrocer.app/api/v1'
+    });
+
+    attachRedmineDemo({ eve });
+  </script>
+</body>
+</html>
+
