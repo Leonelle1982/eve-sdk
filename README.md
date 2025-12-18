@@ -59,3 +59,6 @@ This design ensures:
 - Auditability
 - ERP / accounting compatibility
 
+npm i eve-pay-sdk   (future placeholder)
+
+
