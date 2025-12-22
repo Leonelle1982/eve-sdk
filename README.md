@@ -21,7 +21,7 @@ marketplaces, and payment orchestration layers.
 ---
 
 ## Base URL
-https://api.evegrocer.app/api/v1
+https://api.evegrocer.app/v1
 
 ## Init Payment
 POST /payments/init
