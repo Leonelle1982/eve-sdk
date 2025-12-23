@@ -1,0 +1,32 @@
+{
+  "id": "uuid-v4",
+  "timestamp": "2025-12-23T10:15:00Z",
+  "region": "US",
+  "platform": "shopify",
+  "currency": "USD",
+
+  "transaction_amount": 1500.00,
+  "item_count": 4,
+
+  "delivery": {
+    "mode": "EV",
+    "distance_km": 12
+  },
+
+  "recycling": {
+    "recycle_count": 2,
+    "container_lifecycle": 5
+  },
+
+  "emissions": {
+    "estimated_co2_kg": -5.12,
+    "method": "eve-standard-v1"
+  },
+
+  "esg": {
+    "score_delta": 3,
+    "return_container": true,
+    "ev_delivery": true
+  }
+}
+

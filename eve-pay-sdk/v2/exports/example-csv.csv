@@ -1,0 +1,3 @@
+id,timestamp,region,platform,currency,transaction_amount,item_count,delivery_mode,distance_km,recycle_count,container_lifecycle,estimated_co2_kg,esg_score_delta
+uuid-v4,2025-12-23T10:15:00Z,US,shopify,USD,1500,4,EV,12,2,5,-5.12,3
+
