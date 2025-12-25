@@ -1,0 +1,7 @@
+{
+  "enabled": false,
+  "network": "hedera",
+  "mode": "anchor-only",
+  "topic_id": "0.0.xxxxx"
+}
+
