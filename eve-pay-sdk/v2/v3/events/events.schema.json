@@ -1,0 +1,10 @@
+{
+  "event_type": "payment_confirmed",
+  "timestamp": "ISO-8601",
+  "source": "erp_system",
+  "esg_context": {
+    "carbon_estimate": "number",
+    "method": "string"
+  }
+}
+

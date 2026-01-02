@@ -1,0 +1,13 @@
+{
+  "platform": "shopify",
+  "order_id": "{{ shopify.order_id }}",
+  "amount": "{{ shopify.total_price }}",
+  "currency": "{{ shopify.currency }}",
+  "customer_email": "{{ shopify.customer.email }}",
+  "metadata": {
+    "source": "shopify-demo",
+    "container_return": true,
+    "ev_delivery": false
+  }
+}
+
